@@ -7,6 +7,9 @@
 .bg_black{
     background-color: black;
 }
+.bg_black-2{
+    background-color: #1D1D1D;
+}
 .b_radius{
     border-radius: 20px ;
 }
@@ -19,6 +22,12 @@
 }
 .w_30{
     width: 30%;
+}
+.mt_50{
+margin-top: 50px;
+}
+.pt_b40{
+    padding-bottom: 40px;
 }
 /* fine utility */
 /* header */
@@ -34,6 +43,17 @@ header div img{
     background-position: center;
 }
 #hero div{
-    padding-top: 400px;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+/* sezione takes two*/
+#takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#takes-two div{
+    padding-top: 200px;
     padding-bottom: 40px;
 }
