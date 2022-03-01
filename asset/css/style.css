@@ -10,8 +10,30 @@
 .b_radius{
     border-radius: 20px ;
 }
+.btn_red{
+    background-color:#CD2E13 ;
+    border: 1px solid #CD2E13 ;
+}
+.f-25em{
+    font-size: 2.5em;
+}
+.w_30{
+    width: 30%;
+}
 /* fine utility */
 /* header */
 header div img{
     width: 10%;
+}
+/* main */
+/* sezione hero */
+#hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hero div{
+    padding-top: 400px;
+    padding-bottom: 40px;
 }
