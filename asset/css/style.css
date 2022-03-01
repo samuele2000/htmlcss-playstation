@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utility */
+.bg_black{
+    background-color: black;
+}
+.b_radius{
+    border-radius: 20px ;
+}
+/* fine utility */
+/* header */
+header div img{
+    width: 10%;
+}
