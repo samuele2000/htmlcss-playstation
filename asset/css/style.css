@@ -26,15 +26,24 @@
     background-color:#CD2E13 ;
     border: 1px solid #CD2E13 ;
 }
-.btn_grey{
+.btn_grey,
+.btn_grey-2{
     background-color:#D4D5D7 ;
 }
-
+.btn_blu{
+    background-color: #2d64e6;
+}
+.c_blu2{
+    color: #151A33;
+}
 .f-25em{
     font-size: 2.5em;
 }
 .w_30{
     width: 30%;
+}
+.w_90{
+    width: 97%;
 }
 .mt_50{
 margin-top: 50px;
@@ -43,10 +52,20 @@ margin-top: 50px;
     padding-bottom: 40px;
 }
 /* fine utility */
+
+
 /* header */
 header div img{
     width: 10%;
 }
+.btn-dark:hover{
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px inset white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #2d64e6;
+}
+
 /* main */
 /* sezione hero */
 #hero{
@@ -56,10 +75,28 @@ header div img{
     background-position: center;
     height: 80vh;
 }
-/* #hero div{
-    padding-top: 200px;
-    padding-bottom: 40px;
-} */
+.btn_red:hover{
+    border: 2px solid #CD2E13;
+    box-shadow: 0 0 0 2px inset black; 
+}
+/* sezione con le 6 immagini */
+#image div img:hover{
+    border: 3px solid #2d64e6;
+}
+
+/* sezione ps5 */
+.btn_blu:hover{
+    border: 2px solid #2d64e6;
+    box-shadow: 0 0 0 2px inset white;  
+}
+.opacità{
+    opacity: 0.6;
+}
+#ps5 .opacità:hover{
+    opacity: 1;
+    border-bottom: 2px solid #2d64e6;
+}
+
 /* sezione takes two*/
 #takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -68,14 +105,33 @@ header div img{
     background-position: center;
     height: 80vh;
 }
-/* #takes-two div{
-    padding-top: 200px;
-    padding-bottom: 40px;
-} */
+
+/* sezione nuove uscite */
+#nuove-uscite div img:hover{
+    border: 3px solid #2d64e6;
+}
+
 /* sezione psplus */
-/* .banner-psplus{
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: right;
-} */
+.btn_grey:hover{
+    border: 2px solid #D4D5D7;
+    box-shadow: 0 0 0 2px inset #B6B3B2;
+}
+/* sezione sconti */
+#sconti div img:hover{
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 30%);
+    width: 100%;
+    transition: 0.5s;
+}
+
+/* sezione psnow */
+.btn_grey-2:hover{
+    border: 2px solid #D4D5D7;
+    box-shadow: 0 0 0 2px inset #151A33;   
+}
+
+/* sezione social */
+#social div img:hover{
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 30%);
+    width: 100%;
+    transition: 0.5s;
+}
