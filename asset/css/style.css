@@ -13,6 +13,9 @@
 .bg_grey{
     background-color: #B6B3B2;
 }
+.bg_blu{
+    background-color: #151A33;
+}
 .b_radius{
     border-radius: 20px ;
 }
@@ -23,6 +26,7 @@
 .btn_grey{
     background-color:#D4D5D7 ;
 }
+
 .f-25em{
     font-size: 2.5em;
 }
@@ -47,22 +51,24 @@ header div img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 80vh;
 }
-#hero div{
+/* #hero div{
     padding-top: 200px;
     padding-bottom: 40px;
-}
+} */
 /* sezione takes two*/
 #takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 80vh;
 }
-#takes-two div{
+/* #takes-two div{
     padding-top: 200px;
     padding-bottom: 40px;
-}
+} */
 /* sezione psplus */
 /* .banner-psplus{
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
