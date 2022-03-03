@@ -135,3 +135,8 @@ header div img{
     width: 100%;
     transition: 0.5s;
 }
+/* sezione footer */
+.container_custom_footer{
+    width: 50%;
+    margin: 0 auto;
+}
